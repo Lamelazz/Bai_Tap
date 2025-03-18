@@ -2,9 +2,9 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { SignInScreen } from './screens/SignInScreen';
-import { ExplorerScreen } from './screens/ExplorerScreen';
-import { AccountScreen } from './screens/AccountScreen';
+import  SignInScreen  from './screens/SignInScreen';
+import  ExplorerScreen  from './screens/ExplorerScreen';
+import AccountScreen  from './screens/AccountScreen';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 const Stack = createStackNavigator();
